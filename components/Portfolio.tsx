@@ -169,7 +169,7 @@ const Portfolio: React.FC = () => {
                   className={`
                     font-serif text-mori-900 group-hover:text-mori-600 
                     transition-colors duration-300 mb-0 md:mb-4 font-medium 
-                    text-[14px] md:text-[14px] lg:text-[25px] leading-loose
+                    text-[14px] md:text-[14px] lg:text-[16px] leading-loose
                   `}
                 >
                   {project.title.split('【')[1]?.replace('】', '') || project.title}
