@@ -92,14 +92,14 @@ const Portfolio: React.FC = () => {
         </div>
 
         {/* Staggered Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12 gap-y-6 md:gap-y-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12 gap-y-6 md:gap-y-6">
           {projects.map((project, index) => (
             <div 
               key={project.id} 
               className={`
                 group cursor-pointer transition-all duration-1000 transform 
                 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'} 
-                ${index % 2 !== 0 ? 'md:mt-20' : ''} 
+                ${index % 2 !== 0 ? 'md:mt-10' : ''} 
                 flex flex-col sm:flex-row md:flex-col sm:gap-6 md:gap-0
               `}
               style={{ transitionDelay: `${200 + index * 150}ms` }}
