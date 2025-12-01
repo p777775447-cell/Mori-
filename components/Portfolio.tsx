@@ -107,7 +107,7 @@ const Portfolio: React.FC = () => {
               {/* Image Container */}
               <div 
                 className={`
-                  relative overflow-hidden mb-3 w-full sm:w-1/2 md:w-full 
+                  relative overflow-hidden mb-3 w-full sm:w-1/2 md:w-[80%] md:mx-auto
                   bg-mori-100 shadow-sm sm:mb-0 md:mb-6
                 `}
               >
@@ -151,7 +151,7 @@ const Portfolio: React.FC = () => {
               </div>
 
               {/* Text Info */}
-              <div className="pr-2 md:pr-4 w-full sm:w-1/2 md:w-full sm:flex sm:flex-col sm:justify-center md:block">
+              <div className="pr-2 md:pr-0 w-full sm:w-1/2 md:w-[80%] md:mx-auto sm:flex sm:flex-col sm:justify-center md:block">
                 {/* Location & Size */}
                 <div 
                   className={`
